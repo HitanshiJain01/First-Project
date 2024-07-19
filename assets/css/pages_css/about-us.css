@@ -1,0 +1,136 @@
+.about-us {
+    background: url('/assets/images/about-us_background-image.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding: 100px 0 100px 0;
+}
+
+.about-us__row {
+    margin: 0 auto;
+    padding: 0 20px 30px 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.about-us__left {
+    width: 100%;
+}
+
+.about-us__right {
+    width: 100%;
+}
+
+.about-us__right h2 {
+    color: #0D0802;
+}
+
+.about-us__right p {
+    color: #696969;
+    padding: 30px 0 60px 0;
+    width: fit-content;
+}
+
+.about-us__view {
+    border: 1px solid #FCC200;
+    width: fit-content;
+    padding: 17px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.5px;
+    transition: background .4s;
+}
+
+.about-us__view:hover {
+    background: #FCC200;
+}
+
+.about-us__view a {
+    color: #FCC200;
+    transition: .4s;
+}
+
+.about-us__view:hover a {
+    color: #0D0802;
+}
+
+.arrow-image {
+    background-image: url('/assets/images/Black-arrow.png');
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 21px;
+    transition: .4s;
+}
+
+.about-us__view:hover .arrow-image {
+    background-image: url('/assets/images/White-arrow.png');
+}
+
+.company_name-slider {
+    margin: 0 auto;
+    padding: 73.97px 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31.89px;
+}
+
+.about-us__divider {
+    width: 0.78px;
+    height: 80.41px;
+    border: 1px solid #D9D9D9;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+    .about-us__row {
+        flex-flow: column;
+    }
+}
+
+/*
+-----------------------------Desktop----------------------------- 
+@media only screen and (min-width: 1441px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1199px) and (max-width: 1025px) {}
+
+@media only screen and (min-width: 1025px) {}
+
+
+-----------------------------Tablet----------------------------- 
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+-----------------------------Mobile----------------------------- 
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 375px) {}
+
+*/

@@ -1,0 +1,238 @@
+.footer {
+    background: #0D0802;
+    padding: 99.77px 0 17.99px 0;
+}
+
+.footer__main-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.footer__row {
+    display: flex;
+    gap: 46.18px;
+}
+
+.footer__title {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32.5px;
+    padding-bottom: 30.97px;
+}
+
+.footer_flex {
+    display: flex;
+    align-items: center;
+    gap: 11.4px;
+    padding-bottom: 26px;
+}
+
+.footer__white-circle {
+    background: #FFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__content {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 210.93px;
+}
+
+.footer__column-subscribe {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #FCC200;
+    width: 665px;
+    height: 348px;
+}
+
+.footer__logo {
+    padding-bottom: 16.78px;
+}
+
+.footer__middle-content {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 500px;
+    padding-bottom: 40px;
+}
+
+.footer__divider {
+    width: 566px;
+    height: 1px;
+    border: 1px solid #D9D9D9;
+    margin-bottom: 30px;
+}
+
+.email-subscribe {
+    border: 1px solid #FCC200;
+    width: 414px;
+    height: 44px;
+    padding: 4px 4px 4px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.foot__email {
+    background: transparent;
+    border: none;
+    width: 414px;
+    height: 44px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.subscribe {
+    background: #FCC200;
+    border: 1px solid #FCC200;
+    color: #FFF;
+    padding: 8px 17.01px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    transition: background .4s;
+}
+
+.subscribe:hover {
+    border: 1px solid #FCC200;
+    background: transparent;
+}
+
+.footer__column-links {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 50%;
+}
+
+.footer_menu-links {
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    gap: 26px;
+}
+
+.divider {
+    border: 1px solid #D9D9D9;
+}
+
+.footer__copyright {
+    text-align: center;
+    padding-top: 16.78px;
+    color: #FFF;
+    opacity: 50%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1120px) and (min-width: 768px) {
+    .footer__row {
+        width: 100%;
+        flex-flow: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer__main-row {
+        flex-wrap: wrap;
+    }
+
+    .footer__row {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer__column-subscribe {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .footer__middle-content {
+        width: fit-content;
+    }
+
+    .footer__divider {
+        width: 100%;
+    }
+
+    .email-subscribe {
+        width: 100%;
+        padding: 4px 4px 4px 15px;
+    }
+
+    .foot__email {
+        width: 100%;
+    }
+
+    .footer__column-links {
+        align-items: baseline;
+        padding-top: 40px;
+    }
+
+    .footer_menu-links {
+        align-items: center;
+    }
+}
+
+/*
+-----------------------------Desktop----------------------------- 
+@media only screen and (min-width: 1441px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1199px) and (max-width: 1025px) {}
+
+@media only screen and (min-width: 1025px) {}
+
+
+-----------------------------Tablet----------------------------- 
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+-----------------------------Mobile----------------------------- 
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 375px) {}
+
+*/

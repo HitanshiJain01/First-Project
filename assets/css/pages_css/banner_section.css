@@ -1,0 +1,264 @@
+.banner {
+    background-image: url('/assets/images/Banner_background-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 95px 0 180.9px 0;
+    position: initial;
+    width: 100%;
+}
+
+.banner__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.banner__right-content {
+    width: 90%;
+}
+
+.section__subtitle h3 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27.5px;
+    color: #FCC200;
+    text-transform: capitalize;
+}
+
+.section__title h2 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.section__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 4px 0 53px 0;
+}
+
+.banner__button {
+    border: 1px solid #FFF;
+    padding: 17px 30px;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22.5px;
+    transition: .4s;
+}
+
+.banner__button a {
+    color: #FCC200;
+    transition: .4s;
+}
+
+.banner__button:hover {
+    background: #FCC200;
+    border-color: #FCC200;
+}
+
+.banner__button:hover a {
+    color: #0D0802;
+}
+
+.banner__button:hover .shop__now-image {
+    background-image: url('/assets/images/White_cart.png');
+}
+
+.banner__offer {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -120px;
+}
+
+.banner__one-box {
+    background-image: url('/assets/images/banner_one.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 615px;
+    box-shadow: 0px 0 7px 0 rgb(252, 194, 0.2);
+    height: 302px;
+}
+
+.banner__offer_content {
+    padding: 62.02px 341.01px 62.02px 30px;
+}
+
+h5.offer__subtitle {
+    color: #FCC200;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    text-transform: capitalize;
+}
+
+h3.offer__title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32.5px;
+    color: #FFFFFF;
+    padding-bottom: 19.99px;
+}
+
+a.offer__button {
+    background: #FCC200;
+    border: 1px solid #FCC200;
+    color: #0D0802;
+    padding: 6.5px 18.5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22.5px;
+    transition: 0.4s;
+}
+
+a.offer__button:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.banner__two-box {
+    background-image: url('/assets/images/banner_two.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 615px;
+    height: 302px;
+    box-shadow: 0px 0 7px 0 rgb(252, 194, 0.2);
+}
+
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: initial;
+    bottom: .75rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--container-color);
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: var(--first-color);
+    box-shadow: 0 2px 8px hsla(0, 0%, 0%, .1);
+    transition: background .4s;
+}
+
+.swiper-button-prev {
+    left: calc(50% - 3rem);
+}
+
+.swiper-button-next {
+    right: calc(50% - 3rem);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+    .banner__row {
+        flex-flow: column;
+    }
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 1110px) {
+    .banner__offer_content {
+        padding: 62.02px 240.01px 62.02px 30px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .one,
+    .two,
+    .services__boxes .one,
+    .services__boxes .two {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .banner__offer {
+        flex-flow: column;
+    }
+}
+
+@media only screen and (max-width: 657px) {
+
+    .banner__one-box,
+    .banner__two-box {
+        width: 100%;
+    }
+
+    .banner__offer_content {
+        padding: 62.02px 100.01px 62.02px 30px;
+    }
+
+    h3.offer__title {
+        font-size: 22px;
+        line-height: 28.5px;
+    }
+}
+
+/*
+-----------------------------Desktop----------------------------- 
+@media only screen and (min-width: 1441px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1199px) and (max-width: 1025px) {}
+
+@media only screen and (min-width: 1025px) {}
+
+
+-----------------------------Tablet----------------------------- 
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+-----------------------------Mobile----------------------------- 
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 375px) {}
+
+*/

@@ -1,0 +1,184 @@
+.services {
+    margin: 100px 0;
+    text-align: center;
+    background-image: url('/assets/images/services_background-image.png');
+    background-repeat: no-repeat;
+}
+
+.services__row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.services__row h2 {
+    color: #0D0802;
+    width: 100%;
+}
+
+.services__row p {
+    color: #696969;
+    width: 100%;
+    padding: 20px 0 40px 0;
+}
+
+.services__title {
+    color: #0D0802;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32.5px;
+    padding-bottom: 12px;
+}
+
+.services__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #696969;
+}
+
+.service__mainbox {
+    display: grid !important;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px 90px;
+}
+
+.services__main-box {
+    position: relative;
+}
+
+.services__box {
+    width: 100%;
+    border: 1px solid #FCC200;
+    padding: 40px 40px 40px 90px;
+}
+
+.services__main-box:nth-child(even) .services__box {
+    padding: 40px 90px 40px 40px;
+    text-align: left;
+}
+
+.services__main-box:nth-child(odd) .services__box {
+    padding: 40px 40px 40px 90px;
+    text-align: left;
+}
+
+.services__small-box {
+    width: 90px;
+    height: 90PX;
+    background: #FFFFFF;
+    border: 1px solid #FCC200;
+    background-image: url('/assets/images/services__black-image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+}
+
+.services__main-box:nth-child(1) .services__small-box {
+    top: -19px;
+    left: -39px;
+    transition: background .4s;
+}
+
+.services__main-box:nth-child(2) .services__small-box {
+    top: -19px;
+    right: -39px;
+    transition: background .4s;
+}
+
+.services__main-box:nth-child(3) .services__small-box {
+    bottom: -19px;
+    left: -39px;
+    transition: background .4s;
+}
+
+.services__main-box:nth-child(4) .services__small-box {
+    bottom: -19px;
+    right: -39px;
+    transition: background .4s;
+}
+
+.services__main-box:nth-child(1):hover .services__small-box,
+.services__main-box:nth-child(2):hover .services__small-box {
+    top: 0;
+    height: 100%;
+    background: #FCC200;
+}
+
+.services__main-box:nth-child(3):hover .services__small-box,
+.services__main-box:nth-child(4):hover .services__small-box {
+    bottom: 0;
+    height: 100%;
+    background: #FCC200;
+}
+
+.services__main-box:nth-child(1):hover .services__small-box,
+.services__main-box:nth-child(2):hover .services__small-box,
+.services__main-box:nth-child(3):hover .services__small-box,
+.services__main-box:nth-child(4):hover .services__small-box {
+    background-image: url('/assets/images/services_black-hover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    padding: 75.98px 19.78px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .services__boxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*
+-----------------------------Desktop----------------------------- 
+@media only screen and (min-width: 1441px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1199px) and (max-width: 1025px) {}
+
+@media only screen and (min-width: 1025px) {}
+
+
+-----------------------------Tablet----------------------------- 
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+-----------------------------Mobile----------------------------- 
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 375px) {}
+
+*/

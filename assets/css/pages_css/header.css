@@ -1,0 +1,276 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100.13px;
+    padding: 5px;
+}
+
+.logo {
+    width: 80%;
+    max-width: 296.61px;
+    height: auto;
+}
+
+.header__top__links {
+    display: flex;
+    align-items: center;
+    gap: 45.98px;
+}
+
+.bars i,
+.close i {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.bars i:hover,
+.close i:hover {
+    color: #FCC200;
+}
+
+.bars,
+.close {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 10.89px;
+}
+
+.head-title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.content {
+    color: #FCC200;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.hrs-cnt {
+    font-size: 18px;
+    line-height: 22.5px;
+}
+
+.grey {
+    color: #000;
+    opacity: 20%;
+}
+
+/* Nav menu */
+.header__bottom {
+    background: #0D0802;
+}
+
+.header__menus {
+    padding: 17px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: none;
+}
+
+.menu__items {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu__link {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: .4s;
+}
+
+.menu__link:hover {
+    color: #FCC200;
+    letter-spacing: 0.5px;
+}
+
+.search__box {
+    border: 1px solid #FFFFFF;
+    padding: 4px 4px 4px 17px;
+    border-radius: 30px;
+    display: flex;
+    width: 184px;
+    height: 36px;
+    align-items: center;
+}
+
+.search {
+    background: transparent;
+    border: none;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 133px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search__circle {
+    background: #FFF;
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+    gap: 21.34px;
+}
+
+a.white__circle {
+    display: inline-block;
+    background: #FFF;
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+}
+
+.user__icon.white__circle,
+.cart__icon.white__circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+@media only screen and (min-width: 1100px) and (max-width: 1366px) {
+    .head-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .header__top__links,
+    .header__top {
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu__items {
+        gap: 20px;
+    }
+
+    .nav__links {
+        gap: 8.34px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .header__top,
+    .menu__items,
+    .nav__links {
+        display: none;
+    }
+
+    .nav__logo,
+    .bars,
+    .close {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .header__top__links {
+        display: none;
+    }
+}
+
+
+/* 
+-----------------------------Desktop-----------------------------
+@media only screen and (min-width: 1441px){
+    
+}
+@media only screen and (max-width: 1440px){
+    
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px){
+    
+}
+@media only screen and (min-width: 1200px){
+
+}
+@media only screen and (max-width: 1199px){
+
+}
+@media only screen and (min-width: 1199px) and (max-width: 1025px){
+
+}
+@media only screen and (min-width: 1025px){
+
+}
+
+
+-----------------------------Tablet-----------------------------
+@media only screen and (max-width: 1024px){
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px){
+    
+}
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+}
+@media only screen and (min-width: 768px){
+
+}
+
+-----------------------------Mobile-----------------------------
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    
+}
+@media only screen and (min-width: 576px){
+
+}
+@media only screen and (max-width: 575px){
+    
+}
+@media only screen and (max-width: 479px){
+    
+}
+@media only screen and (max-width: 375px){
+    
+}
+*/

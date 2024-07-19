@@ -1,0 +1,106 @@
+.shop {
+    background: url('/assets/images/Shop__background-image.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.shop__row {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 40px 20px;
+}
+
+.shop__row h2 {
+    color: #0D0802;
+    width: 100%;
+}
+
+ul.category__tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding-bottom: 40px;
+}
+
+ul.category__tabs li.current {
+    background: #FCC200;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+
+li.category__name {
+    /* display: none; */
+    background: #FCC20033;
+    color: #0D0802;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.current {
+    display: flex;
+}
+
+li.category__name:hover {
+    background: #FCC200;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+    ul.category__tabs {
+        flex-wrap: wrap;
+    }
+}
+
+/*
+-----------------------------Desktop----------------------------- 
+@media only screen and (min-width: 1441px) {}
+
+@media only screen and (max-width: 1440px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1199px) and (max-width: 1025px) {}
+
+@media only screen and (min-width: 1025px) {}
+
+
+-----------------------------Tablet----------------------------- 
+@media only screen and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 768px) {}
+
+-----------------------------Mobile----------------------------- 
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 479px) {}
+
+@media only screen and (max-width: 375px) {}
+
+*/

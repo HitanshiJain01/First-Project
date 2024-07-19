@@ -1,0 +1,121 @@
+// BANNER SLIDER
+
+$(document).ready(function () {
+    $('.banner__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: 'unslick'
+            }
+        ]
+    });
+});
+
+// SERVICE SLIDER
+
+$(document).ready(function () {
+    $('.service__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        centerMode: true,
+        centerpadding: '60px',
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: 'unslick'
+            }
+        ]
+    });
+});
+
+
+// COMPANY NAME SLIDER ABOUT-US
+
+$(document).ready(function () {
+    $('.company__image-slider').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    centerMode: true,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    variableWidth: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            }
+        ]
+    });
+});
+
+// TESTIMONIAL SLIDER
+
+$(document).ready(function () {
+    $('.testimonial__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: true,
+        infinite: true,
+        centerMode: true,
+        variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: 'unslick'
+            }
+        ]
+    });
+});
+
+
+
+
+
+// SHOP TABBING SECTION
+$(document).ready(function () {
+
+    $('ul.category__tabs li').click(function () {
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.category__tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+    });
+
+});
