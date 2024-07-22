@@ -4,7 +4,7 @@ $(document).ready(function () {
     $('.banner__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
+        dots: false,
         arrows: false,
         infinite: true,
         centerMode: true,
@@ -31,6 +31,7 @@ $(document).ready(function () {
         infinite: true,
         centerMode: true,
         centerpadding: '60px',
+        variableWidth: true,
         autoplay: true,
         autoplaySpeed: 2000,
         responsive: [
@@ -47,7 +48,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.company__image-slider').slick({
-        slidesToShow: 5,
+        slidesToShow: 7,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
@@ -59,7 +60,7 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    variableWidth: true,
+                    // variableWidth: true,
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     centerMode: true,
@@ -69,7 +70,7 @@ $(document).ready(function () {
             {
                 breakpoint: 576,
                 settings: {
-                    variableWidth: true,
+                    // variableWidth: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true

@@ -1,12 +1,12 @@
 .testimonial {
     text-align: center;
-    padding: 100px 0 99.23px 0;
+    padding: 100px 0;
 }
 
 .testimonial__row {
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px 59.88px 20px;
+    padding: 0 20px 60px 20px;
 }
 
 .testimonial__row h2 {
@@ -25,7 +25,7 @@
     background: #0D08020A;
     width: 1070px !important;
     border: 1px solid #FCC200;
-    padding: 60.12px 149.22px 92.88px 149.22px;
+    padding: 60px 149px 93px 149px;
     margin: 0 40px;
 }
 
@@ -56,6 +56,37 @@ p.content__text {
     gap: 10px;
 }
 
+
+
+/* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: '';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    top: initial;
+    bottom: .75rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: var(--container-color);
+    padding: 4px;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    color: var(--first-color);
+    box-shadow: 0 2px 8px hsla(0, 0%, 0%, .1);
+    transition: background .4s;
+}
+
+.swiper-button-prev {
+    left: calc(50% - 3rem);
+}
+
+.swiper-button-next {
+    right: calc(50% - 3rem);
+}
+
 /* RESPONSIVE */
 @media only screen and (max-width: 1200px) {
     .testimonial__row {
@@ -76,13 +107,13 @@ p.content__text {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial__box {
-        padding: 60.12px 100.22px 92.88px 100.22px;
+        padding: 60px 100px 93px 100px;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .testimonial__box {
-        padding: 50.12px 80.22px 62.88px 80.22px;
+        padding: 50px 80px 63px 80px;
     }
 
     p.content__text {
@@ -104,7 +135,7 @@ p.content__text {
 
     .section__subtitle h3 {
         font-size: 16px;
-        line-height: 21.5px;
+        line-height: 22px;
     }
 
     .testimonial__main-box {

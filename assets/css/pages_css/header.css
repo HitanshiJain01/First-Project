@@ -6,24 +6,31 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.header__container {
+    max-width: 1470px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .header__top {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 100.13px;
+    gap: 100px;
     padding: 5px;
 }
 
 .logo {
     width: 80%;
-    max-width: 296.61px;
+    max-width: 297px;
     height: auto;
 }
 
 .header__top__links {
     display: flex;
     align-items: center;
-    gap: 45.98px;
+    gap: 32px;
 }
 
 .bars i,
@@ -47,7 +54,7 @@
 .flex {
     display: flex;
     align-items: center;
-    gap: 10.89px;
+    gap: 11px;
 }
 
 .head-title {
@@ -66,7 +73,7 @@
 
 .hrs-cnt {
     font-size: 18px;
-    line-height: 22.5px;
+    line-height: 23px;
 }
 
 .grey {
@@ -146,7 +153,7 @@ input:focus {
 .nav__links {
     display: flex;
     align-items: center;
-    gap: 21.34px;
+    gap: 21px;
 }
 
 a.white__circle {
@@ -183,7 +190,7 @@ a.white__circle {
     }
 
     .nav__links {
-        gap: 8.34px;
+        gap: 8px;
     }
 }
 
