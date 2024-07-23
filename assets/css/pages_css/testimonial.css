@@ -116,6 +116,7 @@ p.content__text {
 @media only screen and (max-width: 767px) {
     .testimonial__box {
         padding: 50px 80px 63px 80px;
+        margin: 0;
     }
 
     p.content__text {
@@ -146,6 +147,7 @@ p.content__text {
 
     .testimonial__box {
         padding: 20px;
+        margin: 0;
     }
 }
 
