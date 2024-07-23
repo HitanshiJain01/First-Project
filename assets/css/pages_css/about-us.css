@@ -7,9 +7,9 @@
 
 .about-us__row {
     margin: 0 auto;
-    padding: 0 20px 30px 20px;
+    padding-bottom: 30px;
     display: flex;
-    gap: 40px;
+    gap: 42px;
 }
 
 .about-us__left {
@@ -22,6 +22,8 @@
 
 .about-us__right h2 {
     color: #0D0802;
+    font-size: 66px;
+    line-height: 83px;
 }
 
 .about-us__right p {
@@ -69,8 +71,7 @@
 }
 
 .company_name-slider {
-    /* margin: 0 auto; */
-    padding: 74px 20px 0 20px;
+    padding-top: 74px;
     display: flex;
     align-items: center;
     justify-content: center;

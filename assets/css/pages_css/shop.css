@@ -9,12 +9,14 @@
 .shop__row {
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px 40px 20px;
+    padding-bottom: 40px;
 }
 
 .shop__row h2 {
     color: #0D0802;
     width: 100%;
+    font-size: 66px;
+    line-height: 83px;
 }
 
 ul.category__tabs {

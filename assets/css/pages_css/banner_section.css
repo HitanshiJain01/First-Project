@@ -172,16 +172,19 @@ a.offer__button:hover {
     .banner__row {
         padding: 0 80px;
         gap: 103px;
-        /* max-width: 1270px; */
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1025px) {
+
+    .banner__row {
+        gap: 42px;
+    }
 
     .one,
     .two,
-    .services__boxes .one,
-    .services__boxes .two {
+    .services__boxes.one,
+    .services__boxes.two {
         display: none;
     }
 }

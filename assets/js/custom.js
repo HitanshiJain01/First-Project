@@ -37,9 +37,35 @@ $(document).ready(function () {
         responsive: [
             {
                 breakpoint: 1024,
-                settings: 'unslick'
-            }
+                settings: 'unslick',
+            },
+            // {variableWidth: true,
+            // slidesToShow: 3,
+            // slidesToScroll: 3,
+            // centerMode: true,
+            // infinite: true}
         ]
+        // responsive: [
+        //     {
+        //         breakpoint: 1024,
+        //         settings: {
+        //             variableWidth: true,
+        //             slidesToShow: 1,
+        //             slidesToScroll: 3,
+        //             centerMode: true,
+        //             infinite: true
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 576,
+        //         settings: {
+        //             variableWidth: true,
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1,
+        //             infinite: true
+        //         }
+        //     }
+        // ]
     });
 });
 
@@ -90,6 +116,7 @@ $(document).ready(function () {
         arrows: true,
         infinite: true,
         centerMode: true,
+        centerpadding: '60px',
         variableWidth: true,
         autoplay: true,
         autoplaySpeed: 2000,

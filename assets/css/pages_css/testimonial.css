@@ -12,6 +12,8 @@
 .testimonial__row h2 {
     color: #0D0802;
     width: 100%;
+    font-size: 66px;
+    line-height: 83px;
 }
 
 .testimonial__main-box {
@@ -23,7 +25,7 @@
 
 .testimonial__box {
     background: #0D08020A;
-    width: 1070px !important;
+    max-width: 1070px;
     border: 1px solid #FCC200;
     padding: 60px 149px 93px 149px;
     margin: 0 40px;

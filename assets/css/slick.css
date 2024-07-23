@@ -123,6 +123,12 @@
     color: transparent;
 }
 
+.slick-dots li button:before:hover {
+    background: #FCC200;
+    opacity: 1;
+    color: transparent;
+}
+
 .slick-dots li.slick-active button:before {
     background: #FCC200;
     opacity: 1;

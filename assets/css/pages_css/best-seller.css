@@ -15,11 +15,11 @@
 .best-seller__row h2 {
     color: #0D0802;
     width: 100%;
+    font-size: 66px;
+    line-height: 83px;
 }
 
 .best-seller__main-boxes {
-    margin: 0 auto;
-    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
