@@ -131,15 +131,47 @@
 }
 
 /* RESPONSIVE */
-@media only screen and (max-width: 767px) {
-    .container {
-        width: 100% !important;
-    } 
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+    .service__mainbox {
+        max-width: 760px;
+    }
+
+    .services__text {
+        width: 450px
+    }
 
     .service__mainbox {
         grid-template-columns: 1fr;
     }
 }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .service__mainbox {
+        max-width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100% !important;
+    }
+
+    .service__mainbox {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .service__mainbox {
+        max-width: min-content;
+    }
+
+    .services__text {
+        width: 200px;
+    }
+}
+
 
 /*
 -----------------------------Desktop----------------------------- 
