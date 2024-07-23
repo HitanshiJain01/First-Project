@@ -74,7 +74,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.company__image-slider').slick({
-        slidesToShow: 7,
+        slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
         arrows: false,

@@ -171,7 +171,7 @@ a.offer__button:hover {
 @media only screen and (min-width: 1200px) and (max-width: 1366px) {
     .banner__row {
         padding: 0 80px;
-        /* gap: 103px; */
+        gap: 103px;
     }
 
     /* .banner__container {
