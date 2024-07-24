@@ -197,9 +197,6 @@ a.white__circle {
     content: "\f0c9";
     font-family: "fontawesome";
     color: #FFFFFF;
-    -webkit-transition: all .3s linear 0s;
-    -moz-transition: all .3s linear 0s;
-    -o-transition: all .3s linear 0s;
     transition-property: all .3s linear 0s;
 }
 
@@ -211,9 +208,6 @@ a.white__circle {
     content: "\f00d";
     font-family: "fontawesome";
     color: #fff;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
     transition-property: all .2s linear 0s;
 }
 
@@ -258,9 +252,6 @@ a.white__circle {
     height: 15%;
     list-style: none;
     text-align: center;
-    -webkit-transition: all .2s linear 0s;
-    -moz-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s;
     transition-property: all .2s linear 0s;
 }
 
