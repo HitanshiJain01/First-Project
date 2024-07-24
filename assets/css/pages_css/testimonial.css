@@ -58,8 +58,6 @@ p.content__text {
     gap: 10px;
 }
 
-
-
 /* Swiper class */
 .swiper-button-prev::after,
 .swiper-button-next::after {
@@ -72,11 +70,10 @@ p.content__text {
     bottom: .75rem;
     width: 2rem;
     height: 2rem;
-    background-color: var(--container-color);
+    background-color: #FFFFFF;
     padding: 4px;
     border-radius: 50%;
     font-size: 1.8rem;
-    color: var(--first-color);
     box-shadow: 0 2px 8px hsla(0, 0%, 0%, .1);
     transition: background .4s;
 }

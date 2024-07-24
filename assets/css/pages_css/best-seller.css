@@ -96,6 +96,7 @@ span.grey_price {
 .best-seller_button {
     border: 1px solid #FCC200;
     padding: 6px 66px;
+    width: max-content;
     font-weight: 500;
     font-size: 18px;
     line-height: 22.5px;
