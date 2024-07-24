@@ -20,20 +20,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #0D08020A;
-    width: 100%;
-    border: 1px solid #FCC200;
-    padding: 60px 149px 93px 149px;
-    /* margin: 0 40px; */
 }
 
-/* .testimonial__box {
+.testimonial__box {
     background: #0D08020A;
     max-width: 1070px;
     border: 1px solid #FCC200;
     padding: 60px 149px 93px 149px;
     margin: 0 40px;
-} */
+}
 
 p.content__text {
     font-weight: 400;
@@ -106,7 +101,7 @@ p.content__text {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial__box {
-        /* padding: 60px 100px 93px 100px; */
+        padding: 60px 100px 93px 100px;
         max-width: 600px;
         margin: 0 100px;
     }
