@@ -36,7 +36,7 @@ $(document).ready(function () {
         autoplaySpeed: 5000,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 999,
                 settings: 'unslick',
             },
             // {variableWidth: true,
