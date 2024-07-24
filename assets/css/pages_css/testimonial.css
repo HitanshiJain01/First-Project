@@ -99,12 +99,15 @@ p.content__text {
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
     .testimonial__box {
         width: 900px !important;
+        margin: 0 100px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .testimonial__box {
         padding: 60px 100px 93px 100px;
+        max-width: 600px;
+        margin: 0 100px;
     }
 
     .section__title h2 {
@@ -116,7 +119,8 @@ p.content__text {
 @media only screen and (max-width: 767px) {
     .testimonial__box {
         padding: 50px 80px 63px 80px;
-        margin: 0;
+        max-width: 500px;
+        margin: 0 80px;
     }
 
     p.content__text {
