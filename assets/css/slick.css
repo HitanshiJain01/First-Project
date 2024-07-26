@@ -82,9 +82,9 @@
     float: right;
 }
 
-.slick-slide img {
+/* .slick-slide img {
     display: block;
-}
+} */
 
 .slick-slide.slick-loading img {
     display: none;
@@ -163,14 +163,6 @@
     background: #FFFFFF;
     width: 64px;
     height: 64px;
-}
-
-.slick-next {
-    right: 45px;
-}
-
-.slick-prev {
-    left: 45px;
 }
 
 .slick-list {

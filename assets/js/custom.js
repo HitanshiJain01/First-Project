@@ -108,39 +108,24 @@ $(document).ready(function () {
 
 // TESTIMONIAL SLIDER
 
-$(document).ready(function () {
+jQuery(document).ready(function ($) {
     $('.testimonial__slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: true,
-        arrows: true,
-        infinite: true,
-        centerMode: true,
-        centerpadding: '60px',
-        variableWidth: true,
         autoplay: true,
-        autoplaySpeed: 5000,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    arrows: false,
-                    variableWidth: true,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true
-                }
-            },
-            {
-                breakpoint: 576,
-                settings: {
-                    variableWidth: true,
-                    arrows: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    infinite: true
-                }
+        autoplaySpeed: 2000,
+        arrows: true,
+        responsive: [{
+            breakpoint: 991,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1
             }
+        }
         ]
     });
 });
