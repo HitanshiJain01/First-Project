@@ -13,7 +13,7 @@
 .footer__main-row {
     display: flex;
     padding-bottom: 80px;
-    justify-content: space-betweenssss;
+    justify-content: space-between;
 }
 
 .footer__row {

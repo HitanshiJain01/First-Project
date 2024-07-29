@@ -74,11 +74,11 @@ $(document).ready(function () {
 
 $(document).ready(function () {
     $('.company__image-slider').slick({
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         dots: false,
         arrows: false,
-        centerMode: true,
+        // centerMode: true,
         infinite: true,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -86,18 +86,27 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    variableWidth: true,
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    centerMode: true,
+                    // variableWidth: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    // centerMode: true,
                     infinite: true
                 }
             },
             {
-                breakpoint: 576,
+                breakpoint: 650,
                 settings: {
-                    variableWidth: true,
-                    slidesToShow: 1,
+                    // variableWidth: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    // variableWidth: true,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true
                 }
