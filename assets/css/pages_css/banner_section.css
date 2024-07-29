@@ -6,6 +6,7 @@
     padding: 95px 0 180px 0;
     position: initial;
     width: 100%;
+    text-align: center;
 }
 
 .banner__container {
@@ -19,19 +20,16 @@
     display: flex;
     align-items: center;
     gap: 203px;
-    /* max-width: 1470px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px; */
 }
 
-.banner__left-content,
-.banner__right-content {
+.banner__left-content {
     width: 100%;
+    text-align: left;
 }
 
 .banner__right-content {
     text-align: center;
+    width: 100%;
 }
 
 .section__subtitle h3 {
@@ -163,7 +161,6 @@ a.offer__button:hover {
 /* RESPONSIVE */
 @media only screen and (min-width: 1024px) and (max-width: 1290px) {
     .banner__row {
-        max-width: 1020px;
         gap: 42px;
     }
 
@@ -178,18 +175,6 @@ a.offer__button:hover {
     .banner__offer_content {
         padding: 62px 240px 62px 30px;
     }
-}
-
-@media only screen and (min-width: 1200px) and (max-width: 1366px) {
-    .banner__row {
-        padding: 0 80px;
-        gap: 103px;
-    }
-
-    /* .banner__container {
-        padding: 0 20px;
-        max-width: 1200px;
-    } */
 }
 
 @media only screen and (max-width: 1025px) {
