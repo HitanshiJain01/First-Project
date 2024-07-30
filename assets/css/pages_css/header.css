@@ -199,7 +199,7 @@ a.white__circle {
     content: "\f0c9";
     font-family: "fontawesome";
     color: #FFFFFF;
-    transition-property: all .3s linear 0s;
+    transition: color .4s;
 }
 
 .btn-open:hover:after {
@@ -210,7 +210,7 @@ a.white__circle {
     content: "\f00d";
     font-family: "fontawesome";
     color: #fff;
-    transition-property: all .2s linear 0s;
+    transition: color .4s;
 }
 
 .btn-close:hover:after {
@@ -224,7 +224,7 @@ a.white__circle {
     position: fixed;
     display: none;
     overflow: auto;
-    top: 10%;
+    top: 6%;
     right: 0;
     width: 100%;
     height: 40%;
