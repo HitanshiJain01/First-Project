@@ -184,7 +184,7 @@ ul {
         h2 {
             position: relative;
             padding: 0 0 0.4em;
-            border-bottom: solid 0.2em;
+            border-bottom: 3px solid;
             margin: 0 0 0.4em;
             text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
 
@@ -192,8 +192,8 @@ ul {
                 position: absolute;
                 bottom: -0.1em;
                 content: "";
-                width: 15px;
-                height: 15px;
+                width: 10px;
+                height: 10px;
                 border-radius: 50%;
                 background: #FCC200;
             }
@@ -209,26 +209,26 @@ ul {
         }
 
         &.cute-ears {
-            right: 55%;
-            top: 8%;
+            right: 54%;
+            top: 24%;
             min-width: 25em;
         }
 
         &.cute-eyes {
-            right: 59%;
-            top: 60%;
+            right: 57.5%;
+            top: 56%;
             min-width: 18em;
         }
 
         &.cute-nose {
-            left: 58%;
-            top: 15%;
+            left: 56%;
+            top: 27%;
             min-width: 25em;
         }
 
         &.cute-paws {
-            left: 52.5%;
-            bottom: 6%;
+            left: 51.5%;
+            bottom: 20%;
             min-width: 25em;
         }
     }
