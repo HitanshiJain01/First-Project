@@ -52,6 +52,19 @@
     font-size: 16px;
     line-height: 20px;
     width: fit-content;
+    cursor: pointer;
+    transition: color .4s;
+}
+
+.f__call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.footer__content:hover {
+    color: #FCC200;
 }
 
 .footer__column-subscribe {
@@ -89,7 +102,7 @@
     border: 1px solid #FCC200;
     width: 414px;
     height: 44px;
-    padding: 4px 4px 4px 20px;
+    padding: 4px 2px 4px 20px;
     display: flex;
     align-items: center;
 }
@@ -109,7 +122,7 @@
     background: #FCC200;
     border: 1px solid #FCC200;
     color: #FFF;
-    padding: 8px 17.01px;
+    padding: 8px 17px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -183,7 +196,6 @@
 
     .email-subscribe {
         width: 100%;
-        padding: 4px 4px 4px 15px;
     }
 
     .foot__email {

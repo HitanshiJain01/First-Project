@@ -111,6 +111,11 @@
     letter-spacing: 0.5px;
 }
 
+.active {
+    color: #FCC200;
+    letter-spacing: 0.5px;
+}
+
 .search__box {
     border: 1px solid #FFFFFF;
     padding: 4px 4px 4px 17px;
@@ -143,6 +148,7 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .nav__links {

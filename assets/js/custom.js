@@ -1,3 +1,25 @@
+// SECTION ACTIVE LINK
+const sections = document.querySelectorAll('section[id]');
+
+const scrollActive = () => {
+    const scrollY = window.pageYOffset;
+
+    sections.forEach(current => {
+        const sectionHeight = current.offsetHeight,
+            sectionTop = current.offsetTop - 58,
+            sectionId = current.getAttribute('id'),
+            sectionsClass = document.querySelector('.menu__items a[href*=' + sectionId + ']');
+
+        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+            sectionsClass.classList.add('active');
+        }
+        else {
+            sectionsClass.classList.remove('active');
+        }
+    });
+}
+window.addEventListener('scroll', scrollActive);
+
 // BANNER SLIDER
 
 $(document).ready(function () {

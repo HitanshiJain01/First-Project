@@ -163,18 +163,9 @@
     background: #FFFFFF;
     width: 64px;
     height: 64px;
+    z-index: 1;
 }
 
 .slick-list {
     width: 100% !important;
-}
-
-.banner.slick-dots {
-    /* position: absolute; */
-    bottom: -660px;
-}
-
-.banner.slick-dots li button:before {
-    background: #FFFFFF;
-    opacity: 20%;
 }
