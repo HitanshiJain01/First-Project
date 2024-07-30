@@ -318,6 +318,13 @@ a.white__circle {
     }
 }
 
+@media only screen and (min-width: 968px) and (max-width: 1366px) {
+    .head-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
 
 /* 
 -----------------------------Desktop-----------------------------
