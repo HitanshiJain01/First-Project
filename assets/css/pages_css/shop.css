@@ -56,6 +56,13 @@ li.category__name:hover {
 }
 
 /* RESPONSIVE */
+@media only screen and (max-width: 1366px) {
+    .best-seller__main-boxes {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     ul.category__tabs {
         flex-wrap: wrap;
