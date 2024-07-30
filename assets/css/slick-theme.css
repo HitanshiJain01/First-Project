@@ -45,9 +45,9 @@
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus {
-    color: transparent;
+    color: #FFFFFF;
     outline: none;
-    background: transparent;
+    background: #FFFFFF;
 }
 
 .slick-prev:hover:before,
@@ -192,7 +192,11 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-dots li.slick-active button:before {
+.slick-dots li.slick-active button::before {
     opacity: .75;
     color: black;
+}
+
+.slick-dots li.slick-active button::before:hover {
+    color: #FCC200;
 }

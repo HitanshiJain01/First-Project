@@ -84,25 +84,25 @@
 .services__main-box:nth-child(1) .services__small-box {
     top: -19px;
     left: -39px;
-    transition: background .4s, height .4s;
+    transition: background .4s, height .4s, top .2s;
 }
 
 .services__main-box:nth-child(2) .services__small-box {
     top: -19px;
     right: -39px;
-    transition: background .4s, height .4s;
+    transition: background .4s, height .4s, top .2s;
 }
 
 .services__main-box:nth-child(3) .services__small-box {
     bottom: -19px;
     left: -39px;
-    transition: background .4s, height .4s;
+    transition: background .4s, height .4s, top .2s;
 }
 
 .services__main-box:nth-child(4) .services__small-box {
     bottom: -19px;
     right: -39px;
-    transition: background .4s, height .4s;
+    transition: background .4s, height .4s, top .2s;
 }
 
 .services__main-box:nth-child(1):hover .services__small-box,
