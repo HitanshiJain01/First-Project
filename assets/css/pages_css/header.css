@@ -187,6 +187,7 @@ a.white__circle {
     right: 20px;
     font-size: 22px;
     z-index: 999;
+    cursor: pointer;
 }
 
 .menu-btn a {

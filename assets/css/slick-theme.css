@@ -192,11 +192,7 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-dots li.slick-active button::before {
+.slick-dots li.slick-active button:before {
     opacity: .75;
     color: black;
-}
-
-.slick-dots li.slick-active button::before:hover {
-    color: #FCC200;
 }
