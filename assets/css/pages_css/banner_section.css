@@ -106,7 +106,7 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 615px;
-    box-shadow: 0px 0 7px 0 rgb(252, 194, 0.2);
+    box-shadow: 0px 0 7px 0 rgb(252 194 0 / 33%);
     height: 302px;
 }
 
@@ -153,7 +153,7 @@ a.offer__button:hover {
     background-repeat: no-repeat;
     width: 615px;
     height: 302px;
-    box-shadow: 0px 0 7px 0 rgb(252, 194, 0.2);
+    box-shadow: 0px 0 7px 0 rgb(252 194 0 / 33%);
 }
 
 
@@ -212,6 +212,18 @@ a.offer__button:hover {
     .banner__row {
         flex-flow: column;
         gap: 80px;
+    }
+
+    .banner__left-content,
+    .banner__right-content,
+    .about-us__right {
+        text-align: center;
+    }
+
+    .left__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
