@@ -89,6 +89,10 @@
     .about-us__row {
         flex-flow: column-reverse;
     }
+
+    .about-us__left {
+        text-align: center;
+    }
 }
 
 /*

@@ -108,26 +108,12 @@
 
 
 
-/* body {
-    background: #919793;
-    padding: 2em
-} */
+
 
 ul {
     padding: 0;
     margin: 0;
     list-style: none;
-
-    /* // reduce opacity of non-hovered bit */
-    /* &:hover {
-        .cute-bit {
-            opacity: 0.5;
-
-            &:hover {
-                opacity: 1;
-            }
-        }
-    } */
 }
 
 .ancatomy {
@@ -138,7 +124,7 @@ ul {
 
     img {
         display: block;
-        width: 30em;
+        max-width: 662px;
         margin: 0 auto;
     }
 
@@ -209,26 +195,26 @@ ul {
         }
 
         &.cute-ears {
-            right: 54%;
+            right: 56%;
             top: 24%;
             min-width: 25em;
         }
 
         &.cute-eyes {
-            right: 57.5%;
-            top: 56%;
+            right: 62%;
+            top: 57%;
             min-width: 18em;
         }
 
         &.cute-nose {
-            left: 56%;
-            top: 27%;
+            left: 58%;
+            top: 28%;
             min-width: 25em;
         }
 
         &.cute-paws {
-            left: 51.5%;
-            bottom: 20%;
+            left: 52.5%;
+            bottom: 25%;
             min-width: 25em;
         }
     }

@@ -185,6 +185,16 @@
         flex-wrap: wrap;
     }
 
+    .footer__column-contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer_flex {
+        justify-content: center;
+        flex-flow: column;
+    }
+
     .footer__column-subscribe {
         width: 100%;
         padding: 40px;
@@ -194,14 +204,8 @@
         width: fit-content;
     }
 
-    .footer__divider {
-        width: 100%;
-    }
-
-    .email-subscribe {
-        width: 100%;
-    }
-
+    .footer__divider,
+    .email-subscribe,
     .foot__email {
         width: 100%;
     }

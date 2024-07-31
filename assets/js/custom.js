@@ -72,6 +72,50 @@ $(document).ready(function () {
     });
 });
 
+// BEST SELLER SLIDER
+
+$(document).ready(function () {
+    $('.best-seller__slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        dots: true,
+        arrows: false,
+        infinite: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        responsive: [
+            {
+                breakpoint: 1250,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots: true,
+                    arrows: false,
+                    infinite: true,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            },
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true
+                }
+            }
+        ]
+    });
+});
+
 
 // COMPANY NAME SLIDER ABOUT-US
 
