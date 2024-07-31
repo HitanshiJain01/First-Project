@@ -47,7 +47,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin: 0 auto;
-    padding: 40px 90px;
+    padding: 40px;
     max-width: 1270px;
 }
 

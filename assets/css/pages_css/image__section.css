@@ -110,7 +110,7 @@
 
 
 
-ul {
+/* ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -133,15 +133,15 @@ ul {
         min-width: 15em;
         transition: all 0.25s ease-out;
 
-        &:hover {
-            /* // !important here allows custom base value with consistent hover */
-            min-width: 21em !important;
-        }
+        &:hover { */
+/* // !important here allows custom base value with consistent hover */
+/* min-width: 21em !important;
+        } */
 
-        /* // REFACTOR OPPORTUNITY:
+/* // REFACTOR OPPORTUNITY:
         // pad both sides, then
         // add matching before/after & hide as needed */
-        &.grow-left {
+/* &.grow-left {
             text-align: left;
 
             h2 {
@@ -183,10 +183,10 @@ ul {
                 border-radius: 50%;
                 background: #FCC200;
             }
-        }
+        } */
 
-        /* // h2 */
-        p {
+/* // h2 */
+/* p {
             margin: 0;
             padding: 0;
             text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
@@ -218,10 +218,10 @@ ul {
             min-width: 25em;
         }
     }
+ */
+/* // .cute-bit */
 
-    /* // .cute-bit */
-
-}
+/* }
 
 .grow-right p {
     float: right;
@@ -237,4 +237,4 @@ ul {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
-}
+} */
