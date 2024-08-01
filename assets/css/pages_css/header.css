@@ -303,8 +303,22 @@ a.white__circle {
 
     .mobile__menu,
     .nav__logo,
-    .mobile__items {
-        display: block;
+    .mobile__items,
+    .header__top__links {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .head-title,
+    .grey {
+        color: #FFFFFF;
+    }
+
+    .hrs-cnt,
+    .head-title {
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 400;
     }
 
     .menu-btn {
@@ -312,7 +326,7 @@ a.white__circle {
     }
 }
 
-@media only screen and (max-width: 967px) {
+@media only screen and (min-width: 765px) and (max-width: 967px) {
     .header__top__links {
         display: none;
     }
