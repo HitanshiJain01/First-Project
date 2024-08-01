@@ -138,6 +138,7 @@
 
 .banner.slick-dotted ul.slick-dots li button:hover:before {
     background: #FCC200;
+    opacity: 1;
 }
 
 .banner.slick-dotted ul.slick-dots li.slick-active button:before {
