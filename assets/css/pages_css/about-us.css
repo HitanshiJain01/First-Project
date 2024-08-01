@@ -75,8 +75,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* gap: 32px; */
-    width: 1270px;
     text-align: center;
 }
 
