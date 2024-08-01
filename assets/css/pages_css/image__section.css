@@ -121,107 +121,95 @@ ul {
     text-align: center;
     font-size: 1vw;
     color: #FCC200;
+    width: 100%;
+}
 
-    img {
-        display: block;
-        /* max-width: 662px; */
-        width: 30em;
-        margin: 0 auto;
-    }
+.ancatomy img {
+    display: block;
+    max-width: 662px;
+    margin: 0 auto;
+}
 
-    .cute-bit {
-        position: absolute;
-        min-width: 15em;
-        transition: all 0.25s ease-out;
+.ancatomy .cute-bit {
+    position: absolute;
+    min-width: 15em;
+    transition: all 0.25s ease-out;
+}
 
-        &:hover {
-            /* // !important here allows custom base value with consistent hover */
-            min-width: 21em !important;
-        }
+.ancatomy .cute-bit.grow-left {
+    text-align: left;
+}
 
-        /* // REFACTOR OPPORTUNITY:
-        // pad both sides, then
-        // add matching before/after & hide as needed */
-        &.grow-left {
-            text-align: left;
+.ancatomy .cute-bit.grow-left h2 {
+    padding-right: 1em;
+}
 
-            h2 {
-                padding-right: 1em;
+.ancatomy .cute-bit.grow-left h2:after {
+    right: 0;
+    transform: translate(50%, 50%);
+}
 
-                &:after {
-                    right: 0;
-                    transform: translate(50%, 50%);
-                }
-            }
-        }
+.ancatomy .cute-bit.grow-right {
+    text-align: right;
+}
 
-        &.grow-right {
-            text-align: right;
+.ancatomy .cute-bit.grow-right h2 {
+    padding-left: 1em;
+}
 
-            h2 {
-                padding-left: 1em;
+.ancatomy .cute-bit.grow-right h2:after {
+    left: 0;
+    transform: translate(-50%, 50%);
+}
 
-                &:after {
-                    left: 0;
-                    transform: translate(-50%, 50%);
-                }
-            }
-        }
+.ancatomy .cute-bit h2 {
+    position: relative;
+    padding: 0 0 0.4em;
+    border-bottom: 3px solid;
+    margin: 0 0 0.4em;
+    text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+}
 
-        h2 {
-            position: relative;
-            padding: 0 0 0.4em;
-            border-bottom: 3px solid;
-            margin: 0 0 0.4em;
-            text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+.ancatomy .cute-bit h2:after {
+    position: absolute;
+    bottom: -0.1em;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FCC200;
+}
 
-            &:after {
-                position: absolute;
-                bottom: -0.1em;
-                content: "";
-                width: 10px;
-                height: 10px;
-                border-radius: 50%;
-                background: #FCC200;
-            }
-        }
+.ancatomy .cute-bit p {
+    margin: 0;
+    padding: 0;
+    text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
+    width: 50%;
+    color: #696969;
+}
 
-        /* // h2 */
-        p {
-            margin: 0;
-            padding: 0;
-            text-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
-            width: 50%;
-            color: #696969;
-        }
+.ancatomy .cute-bit.cute-ears {
+    right: 56%;
+    top: 24%;
+    min-width: 25em;
+}
 
-        &.cute-ears {
-            right: 56%;
-            top: 24%;
-            min-width: 25em;
-        }
+.ancatomy .cute-bit.cute-eyes {
+    right: 62%;
+    top: 57%;
+    min-width: 18em;
+}
 
-        &.cute-eyes {
-            right: 62%;
-            top: 57%;
-            min-width: 18em;
-        }
+.ancatomy .cute-bit.cute-nose {
+    left: 58%;
+    top: 28%;
+    min-width: 25em;
+}
 
-        &.cute-nose {
-            left: 58%;
-            top: 28%;
-            min-width: 25em;
-        }
-
-        &.cute-paws {
-            left: 52.5%;
-            bottom: 25%;
-            min-width: 25em;
-        }
-    }
-
-    /* // .cute-bit */
-
+.ancatomy .cute-bit.cute-paws {
+    left: 52.5%;
+    bottom: 25%;
+    min-width: 25em;
 }
 
 .grow-right p {
@@ -238,4 +226,10 @@ ul {
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
     border-width: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .ancatomy img {
+        max-width: 432px;
+    }
 }
