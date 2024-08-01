@@ -75,7 +75,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 32px;
+    /* gap: 32px; */
+    width: 1270px;
+    text-align: center;
+}
+
+/* .company_image {
+    border-right: 0.78px solid #D9D9D9;
+    padding-right: 32px;
+} */
+
+.slick-slide div .company_image {
+    /* max-width: 126px; */
+    border-right: 0.78px solid #D9D9D9;
+    padding-right: 32px;
 }
 
 .about-us__divider {

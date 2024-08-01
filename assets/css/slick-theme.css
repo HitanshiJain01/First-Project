@@ -196,3 +196,10 @@
     opacity: .75;
     color: black;
 }
+
+.banner.slick-dotted ul.slick-dots {
+    max-width: 65px;
+    width: 100%;
+    position: relative;
+    float: right;
+}

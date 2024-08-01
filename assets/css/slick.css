@@ -116,11 +116,33 @@
 
 .slick-dots li button:before {
     background: #0D0802;
-    opacity: 20%;
+    opacity: 40%;
     border-radius: 50%;
     width: 10px;
     height: 10px;
     color: transparent;
+}
+
+.slick-dots li button:hover:before {
+    background: #FCC200;
+}
+
+.banner.slick-dotted ul.slick-dots li button:before {
+    background: #FCC200;
+    opacity: 40%;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    color: transparent;
+}
+
+.banner.slick-dotted ul.slick-dots li button:hover:before {
+    background: #FCC200;
+}
+
+.banner.slick-dotted ul.slick-dots li.slick-active button:before {
+    background: #FCC200;
+    opacity: 1;
 }
 
 .slick-dots li.slick-active button:before {

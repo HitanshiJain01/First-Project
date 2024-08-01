@@ -26,7 +26,7 @@ $(document).ready(function () {
     $('.banner__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        dots: false,
+        dots: true,
         arrows: false,
         infinite: true,
         autoplay: true,
