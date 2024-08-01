@@ -97,13 +97,13 @@
 .services__main-box:nth-child(3) .services__small-box {
     bottom: -19px;
     left: -39px;
-    transition: background .4s, height .4s, top .2s;
+    transition: background .4s, height .4s, bottom .2s;
 }
 
 .services__main-box:nth-child(4) .services__small-box {
     bottom: -19px;
     right: -39px;
-    transition: background .4s, height .4s, top .2s;
+    transition: background .4s, height .4s, bottom .2s;
 }
 
 .services__main-box:nth-child(1):hover .services__small-box,
@@ -143,6 +143,24 @@
 
     .service__mainbox {
         grid-template-columns: 1fr;
+    }
+
+    .services__small-box {
+        top: -19px;
+        left: -39px;
+        transition: background .4s, height .4s, top .2s;
+    }
+
+    .services__main-box:hover .services__small-box {
+        top: 0;
+        height: 100%;
+        background: #FCC200;
+    }
+
+    .services__main-box:nth-child(odd) .services__box,
+    .services__main-box:nth-child(even) .services__box {
+        padding: 40px 40px 40px 90px;
+        text-align: left;
     }
 }
 
